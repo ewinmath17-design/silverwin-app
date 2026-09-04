@@ -49,28 +49,28 @@ products = [
     {
         "id": "SLV-01",
         "name": "Silverwin Cashew (Mete)",
-        "price": "Rp22.000",
+        "price": "Rp35.000",
         "desc": "Cokelat artisan premium khas Kendari berpadu gurihnya kacang mete pilihan asli Sulawesi.",
         "wa": "https://wa.me/6281278904321?text=Halo%20Kak,%20saya%20mau%20pesan%20Silverwin%20Cashew%20(Mete).%20Mohon%20info%20ketersediaan%20stok%20dan%20cara%20pengirimannya%20ya."
     },
     {
         "id": "SLV-02",
-        "name": "Silverwin cashew plus Almond",
-        "price": "Rp22.000",
+        "name": "Silverwin Almond",
+        "price": "Rp38.000",
         "desc": "Sensasi kelezatan cokelat lembut berkualitas tinggi dengan taburan renyah kacang almond pilihan.",
         "wa": "https://wa.me/6281278904321?text=Halo%20Kak,%20saya%20tertarik%20dengan%20Silverwin%20Almond.%20Bagaimana%20cara%20pemesanan%20untuk%20pengiriman%20luar%20kota?"
     },
     {
         "id": "SLV-03",
-        "name": "Silverwin  cashew Dark Milk Chocolate ",
-        "price": "Rp22.000",
+        "name": "Silverwin Dark Chocolate",
+        "price": "Rp35.000",
         "desc": "Cokelat hitam pekat kaya antioksidan dengan rasa autentik biji kakao pilihan Sulawesi.",
         "wa": "https://wa.me/6281278904321?text=Halo%20Kak,%20saya%20ingin%20pesan%20Silverwin%20Dark%20Chocolate.%20Apa%20saja%20paket%20grosir%20yang%20tersedia?"
     },
     {
         "id": "SLV-04",
         "name": "Paket Oleh-Oleh Eksklusif",
-        "price": "Rp66.000",
+        "price": "Rp100.000",
         "desc": "Bundling spesial berisi 3 varian rasa terbaik Silverwin dengan kemasan insulasi aman luar kota.",
         "wa": "https://wa.me/6282293274916?text=Halo%20Kak,%20saya%20mau%20pesan%20Paket%20Oleh-Oleh%20Eksklusif%20Silverwin%20untuk%20kado.%20Mohon%20info%20detailnya."
     }
