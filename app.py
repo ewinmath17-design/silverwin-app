@@ -7,23 +7,11 @@ st.set_page_config(
     layout="centered"
 )
 
-# Custom Styling CSS sederhana agar tampilannya selaras
+# Custom Styling CSS
 st.markdown("""
     <style>
     .main {
         background-color: #fffbeb;
-    }
-    .stButton>button {
-        width: 100%;
-        background-color: #059669;
-        color: white;
-        font-weight: bold;
-        border-radius: 10px;
-        padding: 0.75rem;
-    }
-    .stButton>button:hover {
-        background-color: #047857;
-        color: white;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -77,17 +65,11 @@ products = [
 ]
 
 for p in products:
-    with st.container():
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            st.markdown(f"**{p['name']}** `ID: {p['id']}`")
-            st.markdown(f"### {p['price']}")
-            st.write(p['desc'])
-        with col2:
-            st.write("") # Spacer
-            if st.link_button("Pesan WA ➔", p['wa']):
-                pass
-        st.write("---")
+    st.markdown(f"**{p['name']}** `ID: {p['id']}`")
+    st.markdown(f"### {p['price']}")
+    st.write(p['desc'])
+    st.link_button("Pesan via WhatsApp ➔", p['wa'])
+    st.write("---")
 
 # Footer
 st.markdown("<div style='text-align: center; color: gray; font-size: 12px;'>🔒 Pengiriman Aman: Dilengkapi insulasi khusus anti-leleh ke seluruh Indonesia.<br>© 2026 Silverwin Kendari.</div>", unsafe_allow_html=True)
